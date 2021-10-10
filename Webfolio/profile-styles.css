@@ -193,27 +193,101 @@
     border: 1px solid #ddd;
     border-radius: 50px;
     padding: 10px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.5);
 }
 .personal{
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 .personal button{
     align-items: center;
     justify-content: center;
     width: 300px;
     padding: 15px 0;
-    text-align: center;
-    margin: 5px;
+    text-align: left;
+    margin: 0px;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #fff;
-    background: transparent;
     color: #fff;
+    background: rgba(0, 0, 0, 0.5);
     position: relative;
     overflow: hidden;
 }
+.personal .info-topic{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+.personal p{
+    margin-left: 10px;
+    font-size: medium;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact button{
+    width: 30px;
+    padding: 3px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.activities{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.activities button{
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+.activities .info-topic{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    margin-top: 30px;
+}
+.activities p{
+    font-size: medium;
+    margin-top: 10px;
+}
+.activities img{
+    justify-content: center;
+}
+/*--Lock Orientation--*/
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
 /*--Responsive Web--*/
 @media (min-width: 1280px) {
     .botton{
@@ -249,7 +323,7 @@
         border-radius: 25px;
         font-weight: bold;
         border: 2px solid #fff;
-        background: transparent;
+        background: rgba(0, 0, 0, 0.5);
         color: #fff;
         cursor: pointer;
         position: relative;
@@ -281,7 +355,7 @@
         border-radius: 5px;
         font-weight: bold;
         border: 2px solid #fff;
-        background: transparent;
+        background: rgba(0, 0, 0, 0.5);
         color: #fff;
         cursor: pointer;
         position: relative;
@@ -293,6 +367,7 @@
         border: 1px solid #ddd;
         border-radius: 25px;
         padding: 5px;
-        margin: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
