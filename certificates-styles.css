@@ -31,7 +31,7 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(43, 43, 43);
     position: relative;
     overflow: hidden;
@@ -277,6 +277,9 @@
 }
 .personal .info-topic{
     margin-top: 15px;
+}
+.content{
+    margin-top: 10px;
 }
 /*--Lock Orientation--*/
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
