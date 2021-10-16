@@ -235,7 +235,8 @@
         display: none;
     }
     .intro-button{
-        margin-left: 20vw;
+        display: flex;
+        justify-content: center;
     }
     button{
         align-items: center;
